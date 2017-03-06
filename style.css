@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding:0;
+  font-family: Verdana, sans-serif;
+  background-color: grey;
+}
+
+.banner {
+  width: 100%;
+  display: block;
+}
+
+.banner > .banner-image {
+  width: 100%;
+  display: block;
+}
+
+.heading {
+  text-align: center;
+  padding-top: 30;
+  font-size: 36;
+  color: white;
+}
+
+.info > .savetext {
+  width: 550px;
+  color: white;
+  padding: 30 30 30 30;
+  padding-left: 50;
+  float: left;
+  text-align: left;
+
+}
+
+.info > .orderedlist {
+  width: 500px;
+  color: white;
+  padding: 30 30 30 30;
+  float: right;
+  font-size: 18;
+}
+
+
+.info > .orderedlist > .header {
+  font-size: 24
+
+}
